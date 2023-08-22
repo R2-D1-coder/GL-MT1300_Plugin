@@ -62,7 +62,7 @@ cp -r /workdir/lede/package/lean/luci-app-unblockmusic /workdir/openwrt/package/
 ln -s /workdir/openwrt/package/lean/luci-app-unblockmusic/po/zh-cn /workdir/openwrt/package/lean/luci-app-unblockmusic/po/zh_Hans
 
 # Add smartdns
-svn co https://github.com/pymumu/smartdns/trunk/package/openwrt ../smartdns
+svn co https://github.com/pymumu/smartdns/tree/master/package/openwrt ../smartdns
 svn co https://github.com/liuran001/openwrt-packages/tree/packages/luci-app-smartdns ../luci-app-smartdns
 
 # Add adbyby
