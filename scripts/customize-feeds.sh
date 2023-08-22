@@ -3,10 +3,10 @@ mkdir -p /workdir/openwrt/package/lean
 
 # Add luci-app-ssr-plus
 cd /workdir/openwrt/package/lean
-git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
+git clone --depth=1 https://github.com/fw876/helloworld
 
-cd /workdir/openwrt
-cd /workdir/lede/package/lean
+
+cd /workdir/openwrt/package/lean/helloworld
 plist="shadowsocksr-libev pdnsd-alt microsocks dns2socks simple-obfs v2ray-plugin v2ray xray trojan trojan-go ipt2socks redsocks2 kcptun luci-app-zerotier frp luci-app-frpc luci-app-nps nps"
 for dir in $plist
 do
